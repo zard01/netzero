@@ -1,14 +1,14 @@
-import InfoWrap from './InfoWrap';
-import Subheader from './Subheader';
+import InfoWrap from "./InfoWrap";
+import Subheader from "./Subheader";
 
 export default function Calculators() {
   return (
-    <div id='calc'>
+    <div id="calc">
       <Subheader>
         <>Calculators</>
       </Subheader>
-      <div className='mx-16 grid justify-center gap-10 '>
-        <InfoWrap title='Energy Efficiency Calculator'>
+      <div className="mx-16 grid justify-center gap-10 ">
+        <InfoWrap title="Energy Efficiency Calculator">
           <>
             Vivamus porttitor diam nec scelerisque faucibus. Nam aliquam elit in est condimentum posuere. In lectus
             dolor, pellentesque ac venenatis a, pellentesque ut lectus. Vivamus semper placerat enim, a finibus justo
@@ -19,7 +19,7 @@ export default function Calculators() {
             nec metus.
           </>
         </InfoWrap>
-        <InfoWrap title='Carbon Footprint Calculator'>
+        <InfoWrap title="Carbon Footprint Calculator">
           <>
             Nullam nec rutrum lorem, sed cursus nisi. Nulla ornare, dolor non cursus commodo, dui sem facilisis massa,
             sed feugiat nibh neque non urna. Nullam quis arcu mollis, malesuada nunc vitae, luctus enim. Vestibulum
