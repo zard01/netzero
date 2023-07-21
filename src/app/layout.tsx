@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 const SairaSemiCondensed = Saira_Semi_Condensed({
   subsets: ['latin'],
-  weight: '400',
+  weight: '300',
   variable: '--ssc',
   display: 'swap',
 });

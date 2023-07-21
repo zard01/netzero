@@ -1,11 +1,26 @@
+import CaseStudies from '@/components/CaseStudies';
+import EfficiencyCalculator from '@/components/Calculators';
+import Header from '@/components/Header';
+import MainHeader from '@/components/MainHeader';
+import PerformanceGuide from '@/components/PerformanceGuide';
+import { BiSolidLeaf } from 'react-icons/bi';
 export default function Home() {
   return (
     <>
-      <div className=' font-ssc text-center text-gray-300 text-3xl tracking-wide'>
-        Sustainable Manufacturing Toolkit
-      </div>
-      <div className=' mt-3 font-ssc text-center text-gray-300 text-6xl tracking-widest'>Welcome</div>
-      <div className=' mt-7 font-ssc text-center text-gray-400 text-lg '>Welcome</div>
+      <Header>
+        <>
+          <div className='text-6xl '>Welcome</div>
+          <div className='text-xl '>to the</div>
+          <MainHeader>
+            <>
+              Sustainable Manufacturing Toolkit <BiSolidLeaf className=' text-lime-500' />
+            </>
+          </MainHeader>
+        </>
+      </Header>
+      <PerformanceGuide />
+      <CaseStudies />
+      <EfficiencyCalculator />
     </>
   );
 }
