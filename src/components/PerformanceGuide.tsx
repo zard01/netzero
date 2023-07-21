@@ -36,8 +36,8 @@ export default function PerformanceGuide() {
         </List>
         <List head="4. Analyze the results: ">
           <>
-            Analyze the results of the LCA to identify the areas of the product or service's life cycle that have the
-            greatest environmental impact.
+            Analyze the results of the LCA to identify the areas of the product or service{"'"}s life cycle that have
+            the greatest environmental impact.
           </>
         </List>
         <List head="5. Set sustainability goals: ">
