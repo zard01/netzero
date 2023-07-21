@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import MainHeader from '@/components/MainHeader';
 import PerformanceGuide from '@/components/PerformanceGuide';
 import { BiSolidLeaf } from 'react-icons/bi';
+import Other from '@/components/Other';
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
       <PerformanceGuide />
       <CaseStudies />
       <EfficiencyCalculator />
+      <Other />
     </>
   );
 }

@@ -16,7 +16,7 @@ function NavLink({ children, href }: { children: JSX.Element; href: string }) {
 
 function NavLinkScroll({ children, href, to }: { children: JSX.Element; href: string; to: string }) {
   return (
-    <ScrollLink href={href} to={to} className={linkStyle} offset={-100}>
+    <ScrollLink href={href} to={to} className={linkStyle} offset={-100} spy={true}>
       {children}
     </ScrollLink>
   );
@@ -40,6 +40,9 @@ export default function Navbar() {
             </NavLinkScroll>
             <NavLinkScroll href='#calc' to='calc'>
               <>Calculators</>
+            </NavLinkScroll>
+            <NavLinkScroll href='#other' to='other'>
+              <>Other</>
             </NavLinkScroll>
           </>
         ) : (
